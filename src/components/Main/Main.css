@@ -166,6 +166,7 @@
   display: flex;
   gap: 1.5rem;
   align-items: center;
+  justify-content: center;
 }
 
 .section__2-2 {
@@ -377,4 +378,12 @@
   background-color: #C0C7A3;
   padding: 1rem 3rem;
   border-radius: 5rem;
+}
+
+.black__overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: hsla(0, 0%, 0%, 0.4);
 }

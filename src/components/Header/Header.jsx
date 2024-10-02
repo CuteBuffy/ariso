@@ -8,8 +8,8 @@ function Header() {
         <div className="header__left">
           <nav className="header__navbar">
             <a className="header__navbar__logo" href="#">
-              <img src="../../../public/imgs/ariso-logo1.png" alt="ariso logo" />
-              <img src="../../../public/imgs/ariso-logo2.png" alt="ariso logo2" />
+              <img src="./imgs/ariso-logo1.png" alt="ariso logo" />
+              <img src="./imgs/ariso-logo2.png" alt="ariso logo2" />
             </a>
             <ul className="header__navbar__links">
               <a href="#">
@@ -23,7 +23,7 @@ function Header() {
               </a>
             </ul>
           </nav>
-          <img src="../../../public/imgs/face-top.png" alt="makeup image" />
+          <img src="./imgs/face-top.png" alt="makeup image" />
         </div>
         <div className="header__right">
           <div className="header__right__top">
@@ -33,7 +33,7 @@ function Header() {
           <div className="header__right__bottom">
             <button className="header__right__bottom__tg">
               <span className="tg__icon__container">
-                <img src="../../../public/icons/telegram-icon.png" alt="telegram icon" />
+                <img src="./icons/telegram-icon.png" alt="telegram icon" />
               </span>
               <p>Follow the link</p>
             </button>
@@ -41,7 +41,7 @@ function Header() {
               <div className="search__container">
                 <input className="search__input" type="text" placeholder="Find the product here" maxLength={30} />
                 <button className="search__btn">
-                  <img src="../../../public/icons/search-icon.png" alt="search icon" />
+                  <img src="./icons/search-icon.png" alt="search icon" />
                 </button>
               </div>
             </div>
